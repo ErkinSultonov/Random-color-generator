@@ -1,7 +1,7 @@
 /*
- * This is the JS to implement the UI for my color generator and generates
+ * This is the JS to implement the UI for my color generator that generates
  * different colors and displays it to the user. The colors are generated
- * by choosing random shades for red, green and blue (RGB) colors.
+ * by choosing random shades of red, green and blue (RGB) colors.
  */
 "use strict";
 (function() {
