@@ -1,0 +1,35 @@
+<!--
+  This is the main and the only page for so called "random color generator.
+  This webpage generates random colors and outputs the code of that color to the user.
+  In addition, color will be generated if user reloads the page or presses the button.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Random colors</title>
+  <script src="index.js"></script>
+</head>
+<body>
+
+  <main>
+    <div id="message" class="hidden">
+      <span id="type"></span> copied successfully!
+    </div>
+    <section id="menu">
+      <h1>Random color generator</h1>
+      <p id="hex-result">Hex: <span>#00000</span></p>
+      <p id="rgb-result">RGB: <span>rgb(0, 0, 0)</span></p>
+      <button id="generate">Generate Color</button>
+      <div id="copy-buttons">
+        <button id="copy-rgb">Copy RGB</button>
+        <button id="copy-hex">Copy Hex</button>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>

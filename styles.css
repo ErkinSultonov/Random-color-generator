@@ -1,0 +1,118 @@
+/*
+  This is the styles.css that is used in index.html to make it prettier.
+  Since the background color for this webpage changes dynamically there is no
+  default color for this page.
+*/
+
+body,
+#generate,
+#copy-buttons button {
+  font-family: 'Orbitron', sans-serif;
+}
+
+body,
+main,
+#menu h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+#message {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 0 0 10px 10px;
+  border-top: 5px solid #00ff04;
+}
+
+main,
+#copy-buttons {
+  width: 100%;
+}
+
+main,
+#menu,
+#copy-buttons {
+  display: flex;
+}
+
+main {
+  height: 100vh;
+  background-color: #356b2f;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu h1,
+#generate,
+#copy-buttons button,
+#generate:hover,
+#copy-buttons button:hover,
+#menu p {
+  mix-blend-mode: difference;
+}
+
+#menu h1,
+#generate,
+#copy-buttons button,
+#menu p {
+  color: #ffffff;
+}
+
+#menu h1,
+#menu p {
+  margin-bottom: 20px;
+}
+
+#menu h1,
+#generate,
+#copy-buttons button {
+  font-weight: 700;
+}
+
+#menu h1 {
+  font-size: 30px;
+}
+
+#menu {
+  flex-direction: column;
+  position: relative;
+}
+
+#copy-buttons {
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#generate,
+#copy-buttons button {
+  height: 50px;
+  background-color: transparent;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  cursor: pointer;
+  transition: 0.4s;
+  font-size: 14px;
+}
+
+#generate:hover,
+#copy-buttons button:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#copy-buttons button {
+  width: 45%;
+}
+
+#menu p {
+  text-align: center;
+}
